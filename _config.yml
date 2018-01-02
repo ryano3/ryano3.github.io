@@ -16,23 +16,13 @@ sass:
   style: compressed
 permalink: /:categories/:title/
 # Jekyll 3 now only supports Kramdown for Markdown
- kramdown:
-   # Use GitHub flavored markdown, including triple backtick fenced code blocks
-   input: GFM
-   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-   syntax_highlighter: rouge
-   syntax_highlighter_opts:
-   # Use existing pygments syntax highlighting css
-   css_class: 'highlight'
-   #From skinny-bones-jekyll
-   toc_levels: 1..2
+kramdown:
+  toc_levels: 1..2
 highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  
- 
 
 # Site owner
 owner:
