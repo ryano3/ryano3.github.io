@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "Ryan O"
+description: "Nothing yet."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url:
+url: ryano3.github.io
 feed:
   path: atom.xml
 
@@ -15,14 +15,24 @@ sass:
   sass_dir: _sass
   style: compressed
 permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
+# Jekyll 3 now only supports Kramdown for Markdown
+ kramdown:
+   # Use GitHub flavored markdown, including triple backtick fenced code blocks
+   input: GFM
+   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+   syntax_highlighter: rouge
+   syntax_highlighter_opts:
+   # Use existing pygments syntax highlighting css
+   css_class: 'highlight'
+   #From skinny-bones-jekyll
+   toc_levels: 1..2
 highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
+  
+ 
 
 # Site owner
 owner:
