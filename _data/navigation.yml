@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+ - title: About
+  url: /about/
+  excerpt: "Who I am."
+  image: 300x200.gif
+  
+ - title: Posts
+  url: /portfolio/
+  excerpt: "My thoughts that should or should not be read."
+  image: 300x200.gif
