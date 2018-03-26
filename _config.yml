@@ -1,8 +1,8 @@
 # Site wide configuration
 
-description: "Because for some reason many others aren't"
-logo: RyanPixelPersonHobgood-150x150.png # 120x120 px default image used for Twitter summary card
 title: "Logical"
+description: "Because for some reason many others aren't"
+logo: # 20x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
 url: 
@@ -17,14 +17,6 @@ sass:
 permalink: /:categories/:title/
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-  # Use existing pygments syntax highlighting css
-  css_class: 'highlight'
-  #From skinny-bones-jekyll
   toc_levels: 1..2
 highlighter: rouge
 gems:
